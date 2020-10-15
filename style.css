@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+  font-family: sans-serif;
+}
+
+.profile-img {
+  width: 40%;
+  float: right;
+}
+
+.profile-img img {
+  max-width: 100%;
+}
+
+/* .about {
+  margin-left: 15px;
+  text-align: justify;
+} */
+
+.about {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+  color: white;
+  text-align: justify;
+  padding: 20px 20px;
+  margin-left: 15px;
+}
+
+.about:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 25px solid transparent;
+	border-left-color: #00aabb;
+	border-right: 0;
+	margin-top: -25px;
+	margin-right: -25px;
+}
+
+.profile-info {
+  width: 60%;
+  height: 100vh;
+  float: left;
+  padding: 0 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.profile-info::-webkit-scrollbar{
+  width: 0;
+}
+
+.profile-info h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.social-media img{
+  height: 50px;
+  margin: 20px 15px;
+}
+
+.profile-info h2{
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.hobby img{
+  height: 80px;
+  margin: 5px;
+}
+
+.hobby {
+  display: inline-block;
+  width: 28%;
+  height: auto;
+  padding: 25px 15px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37,73,214,0.18);
+  background: #fff;
+}
+
+.hobby small{
+  padding-top: 10px;
+  display: block;
+  text-align: justify;
+}
+
+.contact img {
+  width: 50px;
+}
+
+.contact h3 {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin: 20px 0;
+  color: gray;
+}
+
+.love-movies img{
+  width: 30%;
+  padding: 4px;
+  margin: 0px 0px 5px 15px;
+}
